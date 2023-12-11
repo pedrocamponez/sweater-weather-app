@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
 import Search from './components/search/search';
 import CurrentWeather from "./components/current-weather/current-weather";
 import Forecast from "./components/forecast/forecast";
@@ -33,9 +35,11 @@ function App() {
 
   return (
     <div className="container">
+      <Header />
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast} />}
+      <Footer />
     </div>
   );
 }
