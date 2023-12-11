@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# React Sweater Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app was developed in order to get the current weather and forecast for every city in Brazil.
+It has three components: the search, current weather and forecast.
+
+Everything was styled using CSS.
 
 ## Available Scripts
 
-In the project directory, you can run:
+After cloning the repository, you can run
 
 ### `npm start`
 
